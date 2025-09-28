@@ -1,20 +1,3 @@
-"""
-Text-to-SQL POC using Gemini LLM and LangChain
-==============================================
-
-This POC demonstrates a pipeline that:
-1. Accepts natural language questions as input
-2. Uses Google's Gemini LLM (free tier) via LangChain
-3. Converts questions to SQL queries
-4. Executes queries on the database
-5. Returns results
-
-Requirements:
-- Google API key for Gemini
-- LangChain framework
-- Business data in CSV format
-"""
-
 import os
 import sqlite3
 import pandas as pd
