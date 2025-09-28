@@ -1,18 +1,3 @@
-"""
-Streamlit UI for Text-to-SQL System with Gemini 2.5 Flash
-========================================================
-
-A beautiful web interface that allows users to:
-1. Upload multiple CSV files
-2. Ask natural language questions
-3. Get SQL queries and results
-4. Visualize data insights
-
-API key is automatically loaded from .env file.
-
-Run with: streamlit run streamlit_app.py
-"""
-
 import streamlit as st
 import pandas as pd
 import sqlite3
